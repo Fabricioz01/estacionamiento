@@ -1,0 +1,73 @@
+/* Estilo para el body */
+.inicio-body {
+    background-image: url(/public/entrada1.jpg);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f8f8f8;
+    min-height: 100vh; /* Agregamos esto para asegurarnos de que el footer se quede al final de la página */
+    position: relative; /* Agregamos esto para poder usar position: absolute; en el footer */
+    overflow: hidden;
+  }
+  
+  /* Estilo para el header */
+  header {
+    background-color: #ffffff;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Estilo para los enlaces del header */
+  header nav button {
+    border: 1px solid #fff;
+    margin: 5px;
+    padding: 8px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: bold;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+  }
+  header nav button:hover{
+    cursor: pointer;
+  }
+  
+  /* Estilo para el contenido principal */
+  .centro-cosas {
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: 100px;
+    border: 2px solid #333;
+    padding: 10px;
+    height: 250px;
+    width: 50%;
+  }
+   p{
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  /* Estilo para el footer */
+  footer {
+    background-color: #f90000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    bottom: 0; /* Agregamos esto para que el footer se quede al final de la página */
+    width: 100%; /* Agregamos esto para que el footer tenga el ancho completo de la página */
+  }
+  
+  /* Estilo para los enlaces del footer */
+  footer nav span {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: bold;
+    padding: 5px; /* Agregamos esto para dar un poco de espacio entre el borde y el texto */
+  }
+  
