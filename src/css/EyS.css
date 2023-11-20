@@ -1,0 +1,61 @@
+/* EyS.css */
+
+.eyS-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  color: black;
+}
+
+.eyS-heading {
+  color: red;
+}
+
+.eyS-input {
+  margin-bottom: 20px;
+}
+
+.eyS-input h2 {
+  margin-bottom: 10px;
+}
+
+.eyS-input input[type="text"] {
+  width: 200px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.eyS-button {
+  padding: 5px 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.eyS-registros table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.eyS-registros th,
+.eyS-registros td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.eyS-registros th {
+  background-color: red;
+  color: white;
+}
+
+.eyS-button.salir {
+  padding: 5px 10px;
+  background-color: white;
+  color: red;
+  border: 1px solid red;
+  cursor: pointer;
+  float: right;
+}
