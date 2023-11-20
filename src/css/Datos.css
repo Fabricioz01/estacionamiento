@@ -1,0 +1,91 @@
+/* Define una imagen de fondo para el cuerpo de la página */
+.datos-body {
+  background-image: url('/public/datos1.png');
+}
+/* Define un estilo para los enlaces de la página */
+span{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fb0707;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Define un estilo para los enlaces cuando el cursor del mouse se desplaza sobre ellos */
+span:hover{
+  background-color: rgb(38, 190, 53);
+}
+
+/* Define un contenedor para el contenido de la página */
+.container-datos {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Define un estilo para el título principal */
+h1 {
+  
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Define un estilo para el contenedor de datos */
+.conteendor-cubo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Define un estilo para las etiquetas de texto */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+/* Define un estilo para los campos de entrada de texto */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Define un estilo para los campos de selección de color */
+input[type="color"]{
+  width: 150px;
+  font-size: 20px;
+  margin-bottom: 25px;
+  border: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Define un estilo para el botón de envío del formulario */
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Define un estilo para el botón de envío del formulario cuando el cursor del mouse se desplaza sobre él */
+button[type="submit"]:hover {
+  background-color: #e02626;
+}
